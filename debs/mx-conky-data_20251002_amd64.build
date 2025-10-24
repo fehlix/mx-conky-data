@@ -1,0 +1,63 @@
+ dpkg-buildpackage -us -uc -ui -I -Idebs
+dpkg-buildpackage: info: source package mx-conky-data
+dpkg-buildpackage: info: source version 20251002
+dpkg-buildpackage: info: source distribution mx
+dpkg-buildpackage: info: source changed by fehlix <fehlix@mxlinux.org>
+ dpkg-source -I -Idebs --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ debian/rules clean
+dh clean 
+dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_clean
+dh_clean: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+ dpkg-source -I -Idebs -b .
+dpkg-source: info: using source format '3.0 (native)'
+dpkg-source: info: building mx-conky-data in mx-conky-data_20251002.tar.xz
+dpkg-source: info: building mx-conky-data in mx-conky-data_20251002.dsc
+ debian/rules binary
+dh binary 
+dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_update_autotools_config
+   dh_prep
+   dh_install
+dh_install: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_installdocs
+dh_installdocs: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_installchangelogs
+dh_installchangelogs: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_perl
+   dh_link
+dh_link: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_strip_nondeterminism
+   dh_compress
+dh_compress: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+dh_compress: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+dh_compress: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_fixperms
+   dh_missing
+dh_missing: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_installdeb
+dh_installdeb: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_gencontrol
+dh_gencontrol: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'mx-conky-data' in '../mx-conky-data_20251002_all.deb'.
+dpkg-deb: building package 'mx-conky-data-bin' in '../mx-conky-data-bin_20251002_all.deb'.
+dpkg-deb: building package 'mx-conky-data-themes' in '../mx-conky-data-themes_20251002_all.deb'.
+ dpkg-genbuildinfo -O../mx-conky-data_20251002_amd64.buildinfo
+ dpkg-genchanges -O../mx-conky-data_20251002_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source -I -Idebs --after-build .
+dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
+Now signing changes and any dsc files...
+ signfile dsc mx-conky-data_20251002.dsc fehlix <fehlix@mxlinux.org>
+
+ fixup_buildinfo mx-conky-data_20251002.dsc mx-conky-data_20251002_amd64.buildinfo
+ signfile buildinfo mx-conky-data_20251002_amd64.buildinfo fehlix <fehlix@mxlinux.org>
+
+ fixup_changes dsc mx-conky-data_20251002.dsc mx-conky-data_20251002_amd64.changes
+ fixup_changes buildinfo mx-conky-data_20251002_amd64.buildinfo mx-conky-data_20251002_amd64.changes
+ signfile changes mx-conky-data_20251002_amd64.changes fehlix <fehlix@mxlinux.org>
+
+Successfully signed dsc, buildinfo, changes files

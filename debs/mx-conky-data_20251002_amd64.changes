@@ -1,0 +1,60 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Fri, 24 Oct 2025 03:57:58 -0400
+Source: mx-conky-data
+Binary: mx-conky-data mx-conky-data-bin mx-conky-data-themes
+Architecture: source all
+Version: 20251002
+Distribution: mx
+Urgency: medium
+Maintainer: Dolphin Oracle <dolphinoracle@gmail.com>
+Changed-By: fehlix <fehlix@mxlinux.org>
+Description:
+ mx-conky-data - meta package of conky themes for MX
+ mx-conky-data-bin - launcher script for default mx conky file
+ mx-conky-data-themes - conky themes for MX Conky
+Changes:
+ mx-conky-data (20251002) mx; urgency=medium
+ .
+   * Clean up lua code
+Checksums-Sha1:
+ 8dcd3fa6beacd4acbcc52a35a1e75fa3e67ce9ab 1667 mx-conky-data_20251002.dsc
+ 5d2355b2a86ec4d1600f7ae59bb4dbb13938ade9 8769884 mx-conky-data_20251002.tar.xz
+ d9ad6651b43fd0af59b89ee42b5f045b178adcee 17936 mx-conky-data-bin_20251002_all.deb
+ e910cae145e50523afbb1651000ae8eedce79425 8782412 mx-conky-data-themes_20251002_all.deb
+ 4b239af6b4f477e27630f34c133ded953e7398b1 18124 mx-conky-data_20251002_all.deb
+ b6ba823caef6629f5a8350869d0f8f0e329baad4 6483 mx-conky-data_20251002_amd64.buildinfo
+Checksums-Sha256:
+ 9d5a05a2477c2804586d1fb7dddbafe886fcedd8eb2eab552f46da410a9ce62a 1667 mx-conky-data_20251002.dsc
+ 3298a08fa77b9e8e771018a10b6bb5f2927bb66f021579795baaeac316fe0063 8769884 mx-conky-data_20251002.tar.xz
+ fd3f6fa4cc9f2f5af206db92f4116d4277c5199401696fae7da558a94f794e4c 17936 mx-conky-data-bin_20251002_all.deb
+ 8294cdf7faad50e0703d31037c6f7932b66e3becf17f686beffc88ec1d3c8586 8782412 mx-conky-data-themes_20251002_all.deb
+ 4b1f2bd6ef141a9bba1227a569fe515bd2504bc8d53a1bb730d013590d72d2b0 18124 mx-conky-data_20251002_all.deb
+ 585ddf7a8b1d41cdb7a7b4e7211820b7dcf4cbde81a192cef7b60c5848656505 6483 mx-conky-data_20251002_amd64.buildinfo
+Files:
+ e030abe0e9d124c77b324d2905b62aea 1667 admin optional mx-conky-data_20251002.dsc
+ 5f3b7080df816c07cdb025014d7a62ea 8769884 admin optional mx-conky-data_20251002.tar.xz
+ 8714ea316a6cd609fb2971c988b12e80 17936 admin optional mx-conky-data-bin_20251002_all.deb
+ 6fe74cdcba06b2dfc7b4715d55897fe7 8782412 admin optional mx-conky-data-themes_20251002_all.deb
+ 8cb46d0cd7c8aa39d9cb9e7226a7691a 18124 admin optional mx-conky-data_20251002_all.deb
+ 5949b5e85a705ef8714db795afaa3f3c 6483 admin optional mx-conky-data_20251002_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQJHBAEBCgAxFiEEgRnC8/wKXRM2S0xLL1ePG6ydm+kFAmj7Mz8THGZlaGxpeEBt
+eGxpbnV4Lm9yZwAKCRAvV48brJ2b6YjoD/oC7niWqACJ2u0MULKelqqOYsrAQD8k
+otKWJvmW3u3YGWo6yrsiTyX+FmxNv0UNbizzDV6pdbdDqibav2lcouyCLgrzpFKf
+p7Sb1WUFMcDjw7Bz/7MvHFgzLEhahbFdffCC9TtqRHU/R0CKnHQt5brvIdaMF3nO
+1518J10n3ShDhSj9zWK2Z616CC1Y8fK7tVFruPZh+OWjYknEX2eYp0F2w6wFY+Ya
+lsAAk+dOe0i0Jx0mpDe8ei55jDVFuVi89lGFhBtD4CYOVfYLy39g6pqPONnyJKMA
+aTqtfRQ8DNHWFdZ5hthyQD6LPuEDAEQ+tH4QsGjoOVMijZh5C772a/5b58Kifz2y
+sYS+yhyZDemlabWmKvaJBY8jUX1JTrSarod5Msz+KYqmd85lss7Yze5fuw4/0OGz
+SyQ93OePnU2i2ik+bjOLT69h2gPAISRG5a+gSh4Kwjpxh2M4rx1au0uHvQi3itLR
+YmOno4iNmq2Y01ULP05BKQ7Gxo3MxOtWZEORPUdGXVrPj+jm+66Kn8l543PQV1Jv
+iRpbXGkbHMkTOqX+bgjC/tbFmsdO0bNW5CkQHmvTLc2bFM3n/71qDHXb+GdCZiIz
+WguFCPZy8lY9k/vR6TFoahMPBZpvD/7oL4Qa1FnlbTXRVpxsO20j4fhcIsKBi8zW
+Zi/qiDkL6GOXqg==
+=+EIc
+-----END PGP SIGNATURE-----
